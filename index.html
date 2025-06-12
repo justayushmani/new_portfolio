@@ -81,10 +81,11 @@
       <p>Email: <a href="mailto:ayushmanitiwari931@gmail.com">ayushmanitiwari931@gmail.com</a></p>
       <p>Phone: 1234567890</p>
     </div>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" rows="5" required></textarea>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="7170cc83-7569-4a74-9005-3826c1734619">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
       <button type="submit">Send</button>
     </form>
   </div>
